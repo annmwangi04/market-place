@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
-import { db, storage } from "./firebase"; // Ensure correct import
+import { db, storage } from "./Firebase"; // Ensure correct import
 import {
     collection,
     addDoc,
